@@ -1,12 +1,39 @@
-.gml{
-
+.gml {
+    display: flex;
+    justify-content: flex-end;
 }
-.logo{
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
-.extra{
 
+form {
+    justify-content: center;
 }
-.foot{
 
+.extra {}
+
+.foot {}
+
+body {
+    background-color: white;
+}
+
+.Gmail {
+    padding-right: 10px;
+}
+
+.Images {
+    padding-right: 10px
+}
+
+.apps {
+    padding-right: 10px
+}
+
+.icons {
+    padding-right: 10px
 }
