@@ -1,25 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .gml {
     display: flex;
     justify-content: flex-end;
 }
 
-img {
+.logo {
+    border-radius: 55px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background: #f0f3ff;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15) -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+input {
+    font-size: 20px;
+    width: 500px;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+
+#googleicon {
+    /**here we are working on the google icon**/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
 }
 
-form {
-    justify-content: center;
+#searchicon {
+    width: 50px;
+    cursor: pointer;
+}
+
+#micicon {
+    width: 30px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .extra {}
 
-.foot {}
+.leftfoot {
+    display: flex;
+    align-items: flex-end;
+}
 
 body {
     background-color: white;
+    width: 90%;
+    height: auto;
+    margin: auto;
 }
 
 .Gmail {
@@ -35,5 +71,5 @@ body {
 }
 
 .icons {
-    padding-right: 10px
+    padding-right: 10px;
 }
